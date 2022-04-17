@@ -15,6 +15,13 @@ Assignment of Web Programming course of HCMUT
 
 ## Progress
 ### Week 1+2:
-- Design the layout
-- Design the Database (?)
-- Decide Language and technology to use
+- **Title**: LGear
+- Design the UI: base on [XGear](thenewxgear.com), using [Figma](https://www.figma.com/file/INifeZQLxd4BjNWoLP9u3A/WebAssignment?node-id=0%3A1)
+    - UI for customers
+    - UI for admin and staff 
+- Design the Database(MySQL):
+    - User: staff, admin, customers
+    - Product
+- Decide Language and technology to use: 
+    - Front-end: html, css, bootstrap5
+    - Back-end: PHP vs JS
