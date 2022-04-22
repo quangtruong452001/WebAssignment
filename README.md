@@ -16,7 +16,7 @@ Assignment of Web Programming course of HCMUT
 ## Progress
 ### Week 1+2:
 - **Title**: LGear
-- Design the UI: base on [XGear](thenewxgear.com), using [Figma](https://www.figma.com/file/INifeZQLxd4BjNWoLP9u3A/WebAssignment?node-id=0%3A1)
+- Design the UI: base on [XGear](https://thenewxgear.com), using [Figma](https://www.figma.com/file/INifeZQLxd4BjNWoLP9u3A/WebAssignment?node-id=0%3A1)
     - UI for customers
     - UI for admin and staff 
 - Design the Database(MySQL):
