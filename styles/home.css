@@ -1,0 +1,82 @@
+
+/*Buy message*/
+.buy-mess{
+    text-align: center;
+    color: #52C1F3;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Container */
+
+
+
+/* Section */
+
+.black-section{
+    background-color: black;
+    color: #fff;
+}
+
+.white-section{
+    background-color: white;
+    color: black;
+}
+
+.section-heading{
+    text-align: center;
+    line-height: 1.5;
+    margin: 1%;
+}
+
+/* Navigation bar */
+
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+    margin: 0 5px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat light" ;
+}
+/*carousel*/
+.carousel-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
+/*Laptop section*/
+.lap-secion{
+    padding: 2% 3%;
+}
+
+.card{
+    background-color: black ;
+}
+
+.capImg{
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+    margin-top: auto;
+    margin-botton:auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/*mac section*/
+.mac-section img{
+    width: 100%;
+}
+
+/*follow*/
+.follow{
+    text-align: center;
+}
