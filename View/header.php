@@ -1,20 +1,11 @@
-
 <link rel="stylesheet" href="../styles/home.css">
 <section class="black-section">
     <!--nav bar-->
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href=""><img  src="../images/logo.png"> Lgear </a>
+            <a class="navbar-brand" href=""><img src="../images/logo.png"> Lgear </a>
 
-            <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-            >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -32,7 +23,7 @@
                         <a class="nav-link" href="">Macbook</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Sign In</a>
+                        <a class="nav-link" href="?page=signin">Sign In</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">Sign Up</a>
@@ -84,7 +75,9 @@
                     <div class="card">
                         <img class="card-img-top capImg" src="../images/acerCapture.PNG">
                         <div class="card-body">
-                            <a href=""><p class="card-text buy-mess">Buy now >></p></a>
+                            <a href="">
+                                <p class="card-text buy-mess">Buy now >></p>
+                            </a>
                         </div>
                     </div>
 
@@ -93,7 +86,9 @@
                     <div class="card">
                         <img class="card-img-top capImg" src="../images/asusCapture.PNG">
                         <div class="card-body">
-                            <a href=""><p class="card-text buy-mess">Buy now >></p></a>
+                            <a href="">
+                                <p class="card-text buy-mess">Buy now >></p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -101,12 +96,14 @@
                     <div class="card">
                         <img class="card-img-top capImg" src="../images/msiCapture.PNG">
                         <div class="card-body">
-                            <a href=""><p class="card-text buy-mess">Buy now >></p></a>
+                            <a href="">
+                                <p class="card-text buy-mess">Buy now >></p>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
 
+</section>
