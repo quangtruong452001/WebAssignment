@@ -1,3 +1,7 @@
+<?php
+include 'header.php'
+?>
+<link rel="stylesheet" href="../styles/signin.css">
 <div class="container" id="layout-page-login">
     <div class="row justify-content-md-center">
         <div class="col-md-6 col">
@@ -35,3 +39,7 @@
     </div>
 
 </div>
+
+<?php
+include 'footer.php'
+?>
