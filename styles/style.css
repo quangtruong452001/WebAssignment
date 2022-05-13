@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
-    background-color: black;
+/*    background-color: black;*/
 }
 
 .selector-for-some-widget {
@@ -13,48 +13,85 @@
     margin: 0;
 }
 
-article {
-    background-color: white;
-    width: fit-content;
-    height: fit-content;
-    margin-left: 30px;
-}
+/*article {*/
+/*    background-color: white;*/
+/*    width: fit-content;*/
+/*    height: fit-content;*/
+/*    margin-left: 30px;*/
+/*}*/
 
-.slide {
-    align-items: center;
+/*.slide {*/
+/*    align-items: center;*/
+/*    text-align: center;*/
+/*}*/
+
+/*h1 {*/
+/*    background-color: white;*/
+/*}*/
+
+/*article .new_list {*/
+/*    float: left;*/
+/*    background-color: white;*/
+/*    text-align: center;*/
+/*}*/
+
+/*article .new_list .news_item {*/
+/*    background-color: white;*/
+/*    text-align: center;*/
+/*}*/
+
+/*article .new_list .news_item .price_tag {*/
+/*    background-color: rgba(247, 7, 7, 0.596);*/
+/*    border-radius: 25px;*/
+/*    border: 2px solid rgba(247, 7, 7, 0.596);*/
+/*    align-items: center;*/
+/*    width: 120px;*/
+/*    height: 25px;*/
+/*}*/
+
+/*article .new_list .news_item h1 {*/
+/*    padding-top: 7px;*/
+/*}*/
+
+/*article .new_list .news_item .spec {*/
+/*    margin-top: 2px;*/
+/*    background-color: white;*/
+/*    text-align: center;*/
+/*}*/
+
+.price_tag{
+        background-color: rgba(247, 7, 7, 0.596);
+        border-radius: 25px;
+        border: 2px solid rgba(247, 7, 7, 0.596);
+        width: 25%;
+        align-items: center;
+}
+.item-left{
+    padding: 0px;
+    vertical-align: inherit;
+    border-top: none;
+}
+.item-right{
+    text-align: left;
+    vertical-align: inherit;
+    border-top: none;
+    padding: 0px;
+    width: auto;
+}
+.spec table{
     text-align: center;
+    table-layout: fixed;
+    vertical-align: middle;
+    height: 12em;
+    padding: 0.3em;
+    margin: auto;
+    background: #f9f9f9;
+    border-radius: 12px;
+    display: table;
+    border-spacing: 5px;
+    border-collapse: separate;
 }
 
-h1 {
-    background-color: white;
-}
-
-article .new_list {
-    float: left;
-    background-color: white;
-    text-align: center;
-}
-
-article .new_list .news_item {
-    background-color: white;
-    text-align: center;
-}
-
-article .new_list .news_item .price_tag {
-    background-color: rgba(247, 7, 7, 0.596);
-    border-radius: 25px;
-    border: 2px solid rgba(247, 7, 7, 0.596);
-    align-items: center;
-    width: 120px;
-    height: 25px;
-}
-
-article .new_list .news_item h1 {
-    padding-top: 7px;
-}
-
-article .new_list .news_item .spec {
-    margin-top: 2px;
-    background-color: white;
-    text-align: center;
+.new_list{
+    margin-top: 5% ;
 }
