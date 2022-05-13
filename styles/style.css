@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.container {
+    margin: 0;
+}
+
+article {
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 30px;
+}
+
+.slide {
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    background-color: white;
+}
+
+article .new_list {
+    float: left;
+    background-color: white;
+    text-align: center;
+}
+
+article .new_list .news_item {
+    background-color: white;
+    text-align: center;
+}
+
+article .new_list .news_item .price_tag {
+    background-color: rgba(247, 7, 7, 0.596);
+    border-radius: 25px;
+    border: 2px solid rgba(247, 7, 7, 0.596);
+    align-items: center;
+    width: 120px;
+    height: 25px;
+}
+
+article .new_list .news_item h1 {
+    padding-top: 7px;
+}
+
+article .new_list .news_item .spec {
+    margin-top: 2px;
+    background-color: white;
+    text-align: center;
+}
