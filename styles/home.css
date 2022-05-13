@@ -1,6 +1,5 @@
-
 /*Buy message*/
-.buy-mess{
+.buy-mess {
     text-align: center;
     color: #52C1F3;
     font-size: 20px;
@@ -13,17 +12,17 @@
 
 /* Section */
 
-.black-section{
+.black-section {
     background-color: black;
     color: #fff;
 }
 
-.white-section{
+.white-section {
     background-color: white;
     color: black;
 }
 
-.section-heading{
+.section-heading {
     text-align: center;
     line-height: 1.5;
     margin: 1%;
@@ -32,20 +31,23 @@
 /* Navigation bar */
 
 
-.navbar-brand{
+.navbar-brand {
     font-family: "Ubuntu";
     font-size: 2.5rem;
 }
-.nav-item{
+
+.nav-item {
     padding: 0 18px;
     margin: 0 5px;
 }
-.nav-link{
+
+.nav-link {
     font-size: 1.2rem;
-    font-family: "Montserrat light" ;
+    font-family: "Montserrat light";
 }
+
 /*carousel*/
-.carousel-image{
+.carousel-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -53,36 +55,36 @@
 }
 
 /*Laptop section*/
-.lap-secion{
+.lap-secion {
     padding: 2% 3%;
 }
 
-.card{
-    background-color: black ;
+.card {
+    background-color: black;
 }
 
-.capImg{
+.capImg {
     border-radius: 4px 4px 4px 4px;
     display: block;
     margin-top: auto;
-    margin-botton:auto;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
 
 /*mac section*/
-.mac-section img{
+.mac-section img {
     width: 100%;
 }
 
 /*follow*/
-.follow{
+.follow {
     text-align: center;
 }
 
 /*Footer*/
-footer{
+footer {
     position: fixed;
     width: 100%;
     bottom: 0;
