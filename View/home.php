@@ -1,23 +1,17 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LGear</title>
 
     <!-- GGFontCSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
-            rel="stylesheet"
-    />
-    <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap"
-            rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
 
 
     <!--    Boostrap link-->
@@ -29,65 +23,24 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Icon -->
-    <script
-            src="https://kit.fontawesome.com/371aa0c399.js"
-            crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/371aa0c399.js" crossorigin="anonymous"></script>
 
     <!--    Icon web-->
     <link rel="icon" href="https://img.icons8.com/small/16/000000/shopping-basket.png">
 
     <!--    CSS file-->
     <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../styles/signin.css">
 
 </head>
+
 <body>
+    <?php
+    include 'header.php';
+    ?>
+
     <section class="black-section">
-    <!--nav bar-->
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href=""><img  src="../images/logo.png"> Lgear </a>
-
-                <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Laptop
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Acer</a>
-                                <a class="dropdown-item" href="#">Asus</a>
-                                <a class="dropdown-item" href="#">MSI</a>
-                            </div>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Macbook</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Sign In</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Sign Up</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="" title="View your shopping cart"><img src="../images/shopping-cart.png"></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-
-    <!--Carousel-->
+        <!--Carousel-->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -114,7 +67,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    <!--Grid-->
+        <!--Grid-->
         <div>
             <div class="section-heading">
                 <h2>LAPTOP GAMING</h2>
@@ -126,7 +79,9 @@
                         <div class="card">
                             <img class="card-img-top capImg" src="../images/acerCapture.PNG">
                             <div class="card-body">
-                                <a href=""><p class="card-text buy-mess">Buy now >></p></a>
+                                <a href="">
+                                    <p class="card-text buy-mess">Buy now >></p>
+                                </a>
                             </div>
                         </div>
 
@@ -135,7 +90,9 @@
                         <div class="card">
                             <img class="card-img-top capImg" src="../images/asusCapture.PNG">
                             <div class="card-body">
-                                <a href=""><p class="card-text buy-mess">Buy now >></p></a>
+                                <a href="">
+                                    <p class="card-text buy-mess">Buy now >></p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -143,7 +100,9 @@
                         <div class="card">
                             <img class="card-img-top capImg" src="../images/msiCapture.PNG">
                             <div class="card-body">
-                                <a href=""><p class="card-text buy-mess">Buy now >></p></a>
+                                <a href="">
+                                    <p class="card-text buy-mess">Buy now >></p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -156,7 +115,9 @@
         <div class="mac-section">
             <div class="section-heading">
                 <h2>MACBOOK</h2>
-                <a href=""><p class="card-text buy-mess">Buy now >></p></a>
+                <a href="">
+                    <p class="card-text buy-mess">Buy now >></p>
+                </a>
             </div>
             <div class="container-fluid">
                 <div class="row">
@@ -167,43 +128,14 @@
                         <img src="../images/macCap2.png">
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
-
-<!--Footer-->
-    <footer>
-        <section class="black-section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <a>Email</a>
-                    </div>
-                    <div class="col-lg-3">
-                        <a>Policies</a>
-                    </div>
-                    <div class="col-lg-3">
-                        <p>Hotline</p>
-                    </div>
-                    <div class="col-lg-3">
-                        <p>Address</p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <section class="white-section">
-            <div class="container-fluid follow">
-                <a href=""><i class="social-icon fab fa-twitter"></i></a>
-                <a href=""><i class="social-icon fab fa-facebook"></i></a>
-                <a href=""><i class="social-icon fab fa-instagram"></i></a>
-                <a href=""><i class="social-icon fas fa-envelope"></i></a>
-                <p>© Copyright 2022</p>
-            </div>
-        </section>
-    </footer>
-
+    <!--Footer-->
+    <?php
+    include 'footer.php';
+    ?>
 </body>
 
 </html>

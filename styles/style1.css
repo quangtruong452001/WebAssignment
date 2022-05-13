@@ -1,0 +1,87 @@
+body {
+    background-color: #edf1f5;
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+}
+
+.card .card-subtitle {
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #8898aa;
+}
+
+.table-product.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f3f8fa!important
+}
+
+.table-product td {
+    border-top: 0px solid #dee2e6 !important;
+    color: #728299!important;
+}
+
+.valid_tag {
+    background-color: rgb(43, 214, 43);
+    border-radius: 25px;
+    border: 2px solid rgb(43, 214, 43);
+    width: 100px;
+    text-align: center;
+}
+
+.content {
+    margin-top: 30px;
+    font-size: small;
+}
+
+.box {
+    float: left;
+    margin: 50px 50px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+/*.box a {
+    display: inline-block;
+    color: #fff;
+    background-color: #2196f3;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+} 
+
+.box a:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.col-lg-6 .col-md-6 .col-sm-6 .box p {
+    font-size: 15px;
+    line-height: 28px;
+    height: 20%;
+    overflow: hidden;
+}
+
+.col-lg-6 .col-md-6 .col-sm-6 .box .showContent p {
+    height: auto;
+}
+
+.box .showContent a.readmore-btn {
+    background-color: red;
+}*/
