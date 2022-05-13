@@ -1,5 +1,6 @@
 #tittle-login {
     margin-top: 20%;
+
     text-align: center;
     background-color: black;
     color: white;
@@ -7,4 +8,14 @@
 
 .input-group {
     padding: 10px;
+}
+
+.fa-envelope {
+    padding-top: 11px;
+    padding-right: 15px;
+}
+
+.fa-lock {
+    padding-top: 33%;
+    padding-right: 15px;
 }
