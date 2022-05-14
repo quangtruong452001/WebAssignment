@@ -15,6 +15,10 @@
                 <div class="col-lg-3">
                     <a href=""><i class="social-icon fas fa-envelope"></i></a>
                     <a>Email</a>
+                    <ul>
+                        <li>sales@lgear.com</li>
+                        <li>support@lgear.com</li>
+                    </ul>
                 </div>
                 <div class="col-lg-3">
                     <a href=""><i class="social-icon fas fa-folder-open"></i></a>
