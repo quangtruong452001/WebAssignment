@@ -95,3 +95,12 @@
 .new_list{
     margin-top: 5% ;
 }
+
+.black-section {
+    background-color: black;
+    color: #fff;
+}
+
+.avatarImg{
+    width: 100%;
+}
