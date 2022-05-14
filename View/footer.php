@@ -13,16 +13,28 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3">
+                    <a href=""><i class="social-icon fas fa-envelope"></i></a>
                     <a>Email</a>
                 </div>
                 <div class="col-lg-3">
+                    <a href=""><i class="social-icon fas fa-folder-open"></i></a>
                     <a>Policies</a>
+                    <ul>
+                        <li>Chính sách bán hành</li>
+                        <li>Chính sách vận chuyển</li>
+                        <li>Chính sách bảo hành sản ph</li>
+                        <li>Chính sách bảo mật thông tin</li>
+                    </ul>
                 </div>
                 <div class="col-lg-3">
-                    <p>Hotline</p>
+                    <a>☎ Hotline</a>
+                    <p class="hotline-content">0123456789</p>
                 </div>
                 <div class="col-lg-3">
-                    <p>Address</p>
+                    <a href=""><i class="social-icon fas fa-home"></i></a>
+                    <a>Address</a>
+                    <p>📌 246 Lí Thường Kiệt,Phường 14,Quận 10,TP Hồ Chí Minh</p>
+                    <img src="../images/logoSaleNoti.png" class="img-fluid" title="logoSaleNoti">
                 </div>
             </div>
 
