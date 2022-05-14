@@ -84,14 +84,13 @@
 }
 
 /*Footer*/
-<<<<<<< HEAD
-
-footer{
-=======
 footer {
     position: fixed;
->>>>>>> 168ca74b35abac993c85934ca873cfa1a9aded8e
     width: 100%;
     bottom: 0;
+}
 
+.hotline-context {
+    border-top: 12px;
+    border-style: solid;
 }
