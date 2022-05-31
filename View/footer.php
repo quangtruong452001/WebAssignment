@@ -36,8 +36,10 @@
                 </div>
                 <div class="col-lg-3">
                     <a href=""><i class="social-icon fas fa-home"></i></a>
-                    <a>Address</a>
-                    <p>📌 246 Lí Thường Kiệt,Phường 14,Quận 10,TP Hồ Chí Minh</p>
+                    <span>Address</span>
+                    <p>
+                        <a class="address" href="googletest.php"> 246 Lí Thường Kiệt,Phường 14,Quận 10,TP Hồ Chí Minh</a>
+                    </p>
                     <img src="../images/logoSaleNoti.png" class="img-fluid" title="logoSaleNoti">
                 </div>
             </div>
