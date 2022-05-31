@@ -85,7 +85,6 @@
 
 /*Footer*/
 footer {
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
@@ -93,4 +92,8 @@ footer {
 .hotline-context {
     margin-top: 12px;
     border-style: solid;
+}
+
+.des{
+    background-color: white;
 }
