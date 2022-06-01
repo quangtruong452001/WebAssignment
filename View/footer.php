@@ -32,7 +32,9 @@
                 </div>
                 <div class="col-lg-3">
                     <a>☎ Hotline</a>
-                    <p class="hotline-context">0123456789</p>
+                    <div class="hotline">
+                        <p class="hotline-context">0123456789</p>
+                    </div>
                 </div>
                 <div class="col-lg-3">
                     <a href=""><i class="social-icon fas fa-home"></i></a>

@@ -90,14 +90,18 @@ footer {
     bottom: 0;
 }
 
-.hotline-context {
-    margin-top: 12px;
+.hotline {
+
     border-style: solid;
+
 }
 
-.des {
-    background-color: white;
+.hotline-context {
+    color: red;
+
 }
+
+
 
 .address {
     color: white;
