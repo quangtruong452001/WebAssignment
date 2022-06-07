@@ -38,7 +38,8 @@ print_r($length);
                     </h1>
                 </a>
                 <div class="price_tag">
-                    <?php echo $product_info[$i]['price'] ?>
+                    <?php echo $product_info[$i]['price'];
+                            echo " VND"?>
                 </div>
                 <div class="spec">
                     <table>
