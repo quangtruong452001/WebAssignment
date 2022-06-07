@@ -42,7 +42,6 @@ function registerUser($db)
         exit();
     }
     $sql = "Insert into users VALUES ('','$name','$email','$pwd');";
-    echo "123";
     if (mysqli_query($db->con, $sql)) {
         echo "Congralutions";
     } else {
