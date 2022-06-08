@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="../styles/signin.css">
     <?php
     // require functions.php file
-    require ('function.php');
+    require('function.php');
     ?>
 
 </head>
@@ -62,7 +62,7 @@
                             <a class="nav-link" href="index.php?page=products&brand=Apple">Macbook</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php?page=signin">Sign In</a>
+                            <a class="nav-link signin" href="index.php?page=signin">Sign In</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="index.php?page=signup">Sign Up</a>
@@ -76,8 +76,3 @@
         </div>
     </section>
 </header>
-
-
-
-
-
