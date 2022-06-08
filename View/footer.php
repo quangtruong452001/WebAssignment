@@ -32,6 +32,9 @@
                     <p>
                         <a class="address" target="_blank" href="https://goo.gl/maps/BnRorPMgrepk6xWWA"> 246 Lí Thường Kiệt,Phường 14,Quận 10,TP Hồ Chí Minh</a>
                     </p>
+                    <p>
+                        <a class="address" target="_blank" href="https://goo.gl/maps/5siE853qhprmBKM86"> 73 Tự Cường, Phường 4, Tân Bình, Hồ Chí Minh</a>
+                    </p>
                     <img src="../images/logoSaleNoti.png" class="img-fluid" title="logoSaleNoti">
                 </div>
             </div>
