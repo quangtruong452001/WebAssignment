@@ -42,7 +42,7 @@
         <!--nav bar-->
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href=""><img src="../images/logo.png"> Lgear </a>
+                <a class="navbar-brand" href="index.php?page=home"><img src="../images/logo.png"> Lgear </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -54,21 +54,21 @@
                                 Laptop
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Acer</a>
-                                <a class="dropdown-item" href="#">Asus</a>
-                                <a class="dropdown-item" href="#">MSI</a>
+                                <a class="dropdown-item" href="index.php?page=products&brand=Acer">Acer</a>
+                                <a class="dropdown-item" href="index.php?page=products&brand=ASUS">Asus</a>
+                                <a class="dropdown-item" href="index.php?page=products&brand=MSI">MSI</a>
                             </div>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Macbook</a>
+                            <a class="nav-link" href="index.php?page=products&brand=Apple">Macbook</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="?page=signin">Sign In</a>
+                            <a class="nav-link" href="index.php?page=signin">Sign In</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Sign Up</a>
+                            <a class="nav-link" href="index.php?page=signup">Sign Up</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="" title="View your shopping cart"><img src="../images/shopping-cart.png"></a>
+                            <a class="nav-link" href="index.php?page=cart" title="View your shopping cart"><img src="../images/shopping-cart.png"></a>
                         </li>
                     </ul>
                 </div>

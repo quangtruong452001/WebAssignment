@@ -11,9 +11,12 @@ class Product
     }
 
     // fetch product data using getData Method
-    public function getData($table = 'products'){
-        $result = $this->db->con->query("SELECT * FROM {$table}");
-
+    public function getData($table = 'products', $brand='brand'){ // , $brand= "brand"
+        $result = $this->db->con->query("SELECT * FROM {$table} WHERE brand = \"{$brand}\"; "); //WHERE LOWER(brand) = {$brand}
+        if (!$result) {
+            printf("Error: %s\n", mysqli_error($this->db->con));
+            exit();
+        }
         $resultArray = array();
 
         // fetch product data one by one
