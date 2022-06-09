@@ -40,8 +40,7 @@ include 'header.php'
                         <div class="action_button text-center">
                             <button class="" type="submit"> Login</button>
                         </div>
-                        <div class="text-center">
-                            <a href="#"> Forgot password?</a>
+                        <div class="text-center mt-3">
                             <button>Sign up</button>
                         </div>
                     </form>
