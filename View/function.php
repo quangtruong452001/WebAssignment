@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
+
 header("Access-Control-Allow-Origin: *");
 // require MySQL Connection
 require('../Model/DBController.php');
@@ -6,6 +8,8 @@ require('../Model/DBController.php');
 // require Product Class
 require('../Model/Product.php');
 
+//require Cart class
+require('../Model/Cart.php');
 
 
 // DBController object
@@ -15,6 +19,8 @@ $db = new DBController();
 $product = new Product($db);
 //print_r($product->getData());
 
+//Cart object
+$Cart = new Cart($db);
 
 //new function
 

@@ -48,4 +48,7 @@
             <p>© Copyright 2022</p>
         </div>
     </section>
+
+    <!-- Custom Javascript -->
+    <script src="index.js"></script>
 </footer>

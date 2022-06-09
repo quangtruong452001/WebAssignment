@@ -57,7 +57,80 @@ body {
 }
 
 
+tr {
+    border-color: gray;
+    border-style: solid;
+    border-width: 0;
+}
 
+.p-des{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.vc_custom_1600254371583{
+    margin-bottom: 10px !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    padding-left: 5px !important;
+    border-left-color: #0a0a0a !important;
+    border-left-style: groove !important;
+    border-right-color: #0a0a0a !important;
+    border-right-style: groove !important;
+    border-top-color: #0a0a0a !important;
+    border-top-style: groove !important;
+    border-bottom-color: #0a0a0a !important;
+    border-bottom-style: groove !important;
+    border-radius: 4px !important;
+}
+.img-big{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+}
+thead {
+    display: table; /* to take the same width as tr */
+
+}
+
+tbody {
+    display: block; /* to enable vert max-height: 200px; /* e.g. */
+
+}
+
+th, td {
+    width: 33.33%; /* to enable "word-break: break-all" */
+    padding: 5px;
+    word-break: break-all; /* 4. */
+}
+
+tr {
+    display: table; /* display purpose; th's border */
+    width: 100%;
+    box-sizing: border-box; /* because of the border (Chrome needs this line, but not FF) */
+}
+
+td {
+    text-align: center;
+    border-bottom: none;
+    border-left: none;
+}
+
+.container{
+    padding: 15px 7px;
+}
+
+.row{
+    padding: 15px 7px;
+}
+
+.name{
+    padding: 15px 7px;
+}
 /*.box a {
     display: inline-block;
     color: #fff;

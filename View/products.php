@@ -6,7 +6,7 @@ include 'header.php';
 $URL = explode("/", $_SERVER['QUERY_STRING']);
 $brand = $_GET['brand'];
 //$product_info = $product->getData('products');
-$product_info = $product->getData('products', $brand);
+$product_info = $product->getDataBrand('products', $brand);
 
 $length = count($product_info);
 //print_r($length);
@@ -30,14 +30,14 @@ $length = count($product_info);
             }
             ?>
             <div class="news_item col-lg-4 col-md-6" >
-                <a href="apple_pro_m1.html" style="color: black; background-color: white; text-decoration: none;">
-                    <img src="<?php echo $product_info[$i]['image'] ?>" alt="" class="img-fluid">
+                <a href="<?php printf('%s?item_id=%s', 'product_description.php', $product_info[$i]['item_id'])?>" style="color: black; background-color: white; text-decoration: none;">
+                    <img src="<?php echo $product_info[$i]['image'] ?>" alt="" class="img-fluid img-fluid-product">
                     <h1>
                         <b style="background-color: white;font-size: large;"><?php echo $product_info[$i]['name'] ?></b>
                     </h1>
                 </a>
                 <div class="price_tag">
-                    <?php echo $product_info[$i]['price'];
+                    <?php echo number_format($product_info[$i]['price']) ;
                             echo " VND"?>
                 </div>
                 <div class="spec">

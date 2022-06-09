@@ -2,7 +2,6 @@
 include 'header.php';
 ?>
 <body>
-
     <section class="black-section">
         <!--Carousel-->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

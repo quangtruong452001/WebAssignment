@@ -1,6 +1,5 @@
 <?php
 $URL = explode("/", $_SERVER['QUERY_STRING']);
-$name = $_GET['page'];
 
 if(isset($_GET['brand']))
 {
@@ -10,10 +9,15 @@ if(isset($_GET['brand']))
     header("Location: products.php?brand={$brand}");
 
 }
-else{
+else if (isset($_GET['page'])){
 
 //echo ($_GET['page']);
+    $name = $_GET['page'];
+    if($name != "product_description"){
+        require_once($name.".php");
+    }
 
-
-require_once($name.".php");
+}
+else{
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
 }
