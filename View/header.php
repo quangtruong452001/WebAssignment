@@ -63,8 +63,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="index.php?page=signup">Sign Up</a>
                         </li>
+                      
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php?page=cart1" title="View your shopping cart"><img src="../images/shopping-cart.png"></a>
+                            <a class="nav-link" href="index.php?page=cart" title="View your shopping cart"><img src="../images/shopping-cart.png"></a>
                         </li>
                     </ul>
                 </div>

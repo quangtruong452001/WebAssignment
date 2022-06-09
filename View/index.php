@@ -1,4 +1,7 @@
 <?php
+
+
+
 $URL = explode("/", $_SERVER['QUERY_STRING']);
 
 if(isset($_GET['brand']))
