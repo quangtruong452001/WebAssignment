@@ -1,6 +1,7 @@
 <?php
 include 'header.php';
 ?>
+
 <body>
     <section class="black-section">
         <!--Carousel-->
@@ -96,7 +97,9 @@ include 'header.php';
         </div>
     </section>
     <!--Footer-->
+
     <?php
     include 'footer.php';
+    include 'topbutton.php';
     ?>
 </body>
