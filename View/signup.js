@@ -14,8 +14,9 @@ signup.addEventListener('click', () => {
         })
         .then(data => {
             alert(data);
+
             if (status == 200)
-                location.href = "/WebAssignment/View/home.php"
+                location.href = "/WebAssignment/View/index.php?page=home"
         })
         .catch(err => { alert(err) })
 })

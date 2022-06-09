@@ -24,17 +24,22 @@ include 'header.php'
             <div class="col-md-6 col">
                 <h2 id="tittle-login">Login</h2>
                 <div class="loginbox">
-                    <form method="post" action="">
+                    <form method="post" onsubmit="return false;">
+                        <div class="errors"></div>
                         <div class="input-group margin-bottom-sm">
                             <span class="input-group-addon"> <i class="fa fa-envelope fa-fw"></i></span>
 
 
-                            <input class="form-control" type="text" placeholder="Email address">
+                            <input class="form-control" type="text" placeholder="Email address" name="email">
                         </div>
                         <div class="input-group margin-bottom-sm">
                             <span class="input-group-addon"> <i class="fa fa-lock fa-fw"></i></span>
                             <label for="password"></label>
-                            <input class="form-control" id="password" type="password">
+                            <input class="form-control" id="password" type="password" name="password">
+                        </div>
+                        <div class="input-group">
+                            <!-- <label for=""></label> -->
+                            <input type="hidden" name="crud_req" value="login">
                         </div>
                         <div class="action_button text-center">
                             <button class="" type="submit"> Login</button>
@@ -51,7 +56,7 @@ include 'header.php'
 
     </div>
 
-
+    <script src="./signin.js"></script>
 </body>
 
 <?php

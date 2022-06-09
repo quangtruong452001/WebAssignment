@@ -42,7 +42,7 @@ include 'header.php';
                         <div class="card">
                             <img class="card-img-top capImg" src="../images/acerCapture.PNG">
                             <div class="card-body">
-                                <a href="">
+                                <a href="index.php?page=products&brand=Acer">
                                     <p class="card-text buy-mess">Buy now >></p>
                                 </a>
                             </div>
@@ -53,7 +53,7 @@ include 'header.php';
                         <div class="card">
                             <img class="card-img-top capImg" src="../images/asusCapture.PNG">
                             <div class="card-body">
-                                <a href="">
+                                <a href="index.php?page=products&brand=ASUS">
                                     <p class="card-text buy-mess">Buy now >></p>
                                 </a>
                             </div>
@@ -63,7 +63,7 @@ include 'header.php';
                         <div class="card">
                             <img class="card-img-top capImg" src="../images/msiCapture.PNG">
                             <div class="card-body">
-                                <a href="">
+                                <a href="index.php?page=products&brand=MSI">
                                     <p class="card-text buy-mess">Buy now >></p>
                                 </a>
                             </div>
@@ -78,7 +78,7 @@ include 'header.php';
         <div class="mac-section">
             <div class="section-heading">
                 <h2>MACBOOK</h2>
-                <a href="">
+                <a href="index.php?page=products&brand=Apple">
                     <p class="card-text buy-mess">Buy now >></p>
                 </a>
             </div>
@@ -100,5 +100,3 @@ include 'header.php';
     include 'footer.php';
     ?>
 </body>
-
-</html>

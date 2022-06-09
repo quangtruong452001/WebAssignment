@@ -1,4 +1,3 @@
-
 <footer>
     <section class="black-section">
         <div class="container-fluid">
@@ -15,10 +14,10 @@
                     <a href=""><i class="social-icon fas fa-folder-open"></i></a>
                     <a>Policies</a>
                     <ul>
-                        <li>Chính sách bán hành</li>
-                        <li>Chính sách vận chuyển</li>
-                        <li>Chính sách bảo hành sản ph</li>
-                        <li>Chính sách bảo mật thông tin</li>
+                        <li>Sales policies</li>
+                        <li>Policy delivery-shipping.</li>
+                        <li>Warranty policies</li>
+                        <li>Privacy policies</li>
                     </ul>
                 </div>
                 <div class="col-lg-3">
@@ -32,6 +31,9 @@
                     <span>Address</span>
                     <p>
                         <a class="address" target="_blank" href="https://goo.gl/maps/BnRorPMgrepk6xWWA"> 246 Lí Thường Kiệt,Phường 14,Quận 10,TP Hồ Chí Minh</a>
+                    </p>
+                    <p>
+                        <a class="address" target="_blank" href="https://goo.gl/maps/5siE853qhprmBKM86"> 73 Tự Cường, Phường 4, Tân Bình, Hồ Chí Minh</a>
                     </p>
                     <img src="../images/logoSaleNoti.png" class="img-fluid" title="logoSaleNoti">
                 </div>
