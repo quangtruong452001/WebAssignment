@@ -1,7 +1,6 @@
 <?php
 include 'header.php';
 ?>
-
 <body>
     <section class="black-section">
         <!--Carousel-->

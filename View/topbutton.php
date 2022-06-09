@@ -1,27 +1,6 @@
-<button onclick="topFunction()" id="topButton" title="Go to top">Top</button>
-<style>
-    #topButton {
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 30px; /* Place the button 30px from the right */
-        z-index: 99;
-        border: none;
-        outline: none;
-        background-color: white;
-        color: #52C1F3;
-        cursor: pointer;
-        padding: 15px;
-        border-radius: 18px;
-        font-size: 18px;
-    }
-
-    #topButton:hover {
-        background-color: Red; /* Add a dark-grey background on hover */
-    }
-</style>
+<button onclick="topFunction()" id="myTopButton" title="Go to top"><img src="../images/to_top.png" alt="to_top" width="50" height="50"></button>
 <script>
-    var myButton = document.getElementById("topButton");
+    var myButton = document.getElementById("myTopButton");
     window.onscroll = function() {
         scrollFunction()
     };
