@@ -26,7 +26,10 @@
 
     <!--    CSS file-->
     <link rel="stylesheet" href="../styles/home.css">
-<!--    <link rel="stylesheet" href="../styles/signin.css">-->
+    <!--    <link rel="stylesheet" href="../styles/signin.css">-->
+
+    <!--script -->
+
     <?php
     // require functions.php file
     require('function.php');
@@ -58,14 +61,27 @@
                             <a class="nav-link" href="index.php?page=products&brand=Apple">Macbook</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link signin" href="index.php?page=signin">Sign In</a>
+                            <a class="nav-link signin" href="<?php echo isset($_COOKIE['user']) ? "" : "index.php?page=signin"; ?> ">
+                                <?php
+                                echo isset($_COOKIE['user']) ? "Welcome " : "Sign in";
+                                ?>
+
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php?page=signup">Sign Up</a>
+                            <a class="nav-link <?php echo isset($_COOKIE['user']) ? "logout" : "signup" ?>" href="<?php echo isset($_COOKIE['user']) ? "index.php?deletesession=logout" : "index.php?page=signup"; ?>" name="crud_req" value="<?php echo isset($_COOKIE['user']) ? "logout" : ""; ?>">
+                                <?php
+                                echo isset($_COOKIE['user']) ? "Log out" : "Sign up";
+                                ?>
+                            </a>
                         </li>
+
                       
                         <li class="nav-item">
                             <a class="nav-link" href="index.php?page=cart" title="View your shopping cart"><img src="../images/shopping-cart.png"></a>
+
+                        <li class=" nav-item">
+                            <a class="nav-link" href="index.php?page=cart1" title="View your shopping cart"><img src="../images/shopping-cart.png"></a>
                         </li>
                     </ul>
                 </div>

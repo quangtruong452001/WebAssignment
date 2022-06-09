@@ -40,7 +40,7 @@ include 'header.php'
                         <button class="" type="submit"> Sign up</button>
                     </div>
                     <div class="text-center">
-                        <a href="#"> Already have account?</a>
+                        <a href="index.php?page=signin"> Already have account?</a>
                     </div>
                 </form>
             </div>

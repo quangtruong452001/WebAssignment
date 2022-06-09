@@ -1,3 +1,4 @@
+'use strict'
 const signin = document.querySelector('button[type = "submit"]');
 
 signin.addEventListener('click', () => {
@@ -21,10 +22,7 @@ signin.addEventListener('click', () => {
             if (status == 200) {
                 let login = document.querySelector(".signin");
                 login.innerHTML = data;
-
-                // alert(data);
-                //location.href = "/WebAssignment/View/index.php?page=home"
-
+                location.href = "/WebAssignment/View/index.php?page=home"
             }
             else
                 location.href = "/WebAssignment/View/index.php?page=signin"

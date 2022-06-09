@@ -32,9 +32,8 @@ $Cart = new Cart($db);
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['crud_req'] == 'register') {
     registerUser($db);
 } else if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['crud_req'] == 'login') {
-    login($db);
+    $id = login($db);
 }
-//resisterUser
 function registerUser($db)
 {
     $name = $_POST['name'];
@@ -66,7 +65,7 @@ function login($db)
 {
     $email = $_POST['email'];
     $pwd = $_POST['password'];
-    $sql = "select pwd from users where email=?;";
+    $sql = "select pwd,id from users where email=?;";
     $stmt = $db->con->stmt_init();
     if (!$stmt->prepare($sql))
         http_response_code(400, "Something went wrong");
@@ -85,11 +84,10 @@ function login($db)
             $_SESSION[$key] = $email;
             setcookie('user', $key);
             http_response_code(200);
-            echo $email;
         } else {
             http_response_code(401);
             echo "Invalid user name or password";
         }
     }
-    exit();
+    return $data['id'];
 }
