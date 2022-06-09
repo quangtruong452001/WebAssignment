@@ -2,6 +2,7 @@
 include 'header.php';
 ?>
 <body>
+<title>LGear</title>
     <section class="black-section">
         <!--Carousel-->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
