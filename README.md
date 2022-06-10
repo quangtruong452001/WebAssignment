@@ -14,7 +14,6 @@ Assignment of Web Programming course of HCMUT
 - Use appropriate colors to your website
 
 ## Progress
-### Week 1+2:
 - **Title**: LGear
 - Design the UI: base on [XGear](https://thenewxgear.com), using [Figma](https://www.figma.com/file/INifeZQLxd4BjNWoLP9u3A/WebAssignment?node-id=0%3A1)
     - UI for customers
