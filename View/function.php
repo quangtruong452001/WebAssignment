@@ -27,11 +27,13 @@ $Cart = new Cart($db);
 
 //new function
 
-
+//user id
+$id=1;
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['crud_req'] == 'register') {
     registerUser($db);
 } else if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['crud_req'] == 'login') {
+
     $id = login($db);
 }
 function registerUser($db)

@@ -58,4 +58,22 @@ class Product
             return $resultArray;
         }
     }
+    // get product history using user_id
+    public function getHistory($user_id = 1, $table= 'purposing_history'){
+        if (isset($user_id)){
+            $result = $this->db->con->query("SELECT * FROM {$table} WHERE user_id={$user_id};");
+            if (!$result) {
+                printf("Error: %s\n", mysqli_error($this->db->con));
+                exit();
+            }
+            $resultArray = array();
+
+            // fetch product data one by one
+            while ($item = mysqli_fetch_array($result, MYSQLI_ASSOC)){
+                $resultArray[] = $item;
+            }
+
+            return $resultArray;
+        }
+    }
 }

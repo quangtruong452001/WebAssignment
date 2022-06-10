@@ -80,5 +80,14 @@ class Cart
         }
     }
 
+    //delete data of table cart
+    public function deleteDataCart($table = 'cart'){
+            $result = $this->db->con->query("DELETE FROM {$table};");
+            if($result){
+                header("Location:" . $_SERVER['PHP_SELF']);
+            }
+            return $result;
+
+    }
 
 }

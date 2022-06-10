@@ -41,7 +41,8 @@ include 'header.php'
                             <button class="" type="submit"> Login</button>
                         </div>
                         <div class="text-center mt-3">
-                            <button>Sign up</button>
+
+                            <button><a href="index.php?page=signup" >Sign up</a></button>
                         </div>
                     </form>
                 </div>

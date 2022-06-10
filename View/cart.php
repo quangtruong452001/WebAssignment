@@ -7,10 +7,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (isset($_POST['delete-cart-submit'])) {
         $deletedrecord = $Cart->deleteCart($_POST['item_id']);
     }
+    if (isset($_POST['delete-cart'])) {
+        $deletedrecord = $Cart->deleteDataCart();
+    }
 };
 if(count($product->getData('cart')) == 0){ include ('HaveNoCart.php');}
 ?>
 <link rel="stylesheet" href="../styles/cart.css">
+<title>Product desciptions</title>
 <div class="container-fluid">
     <div class="justify-content-md-center">
         <div class="ecommerce container">
@@ -78,24 +82,11 @@ if(count($product->getData('cart')) == 0){ include ('HaveNoCart.php');}
 
                     endforeach;
                     ?>
-                    <tr>
-                        <td colspan="6">
-                            <div class="infor"></div>
-                            <div class="coupon">
-                                <label for="coupon_code"></label>
-                                <input type="text" name="coupon_code" placeholder="Coupon code">
-                                <button type="submit" class="btn btn-danger" name="apply_coupon" value="Apply">Apply</button>
-                                <button type="submit" class="btn btn-danger" aria-disabled="true" name="update_cart" value="update_cart">Update cart</button>
-                                <a href="" class="btn btn-danger btn-checkout">Purpose</a>
-                            </div>
 
-                        </td>
-
-                    </tr>
                 </tbody>
             </table>
             <div class="cart-total">
-                <h2>Cộng giỏ hàng</h2>
+                <h2>Shopping Cart</h2>
                 <table class="table">
                     <tbody>
                         <tr class="cart-subtotal">
@@ -116,14 +107,42 @@ if(count($product->getData('cart')) == 0){ include ('HaveNoCart.php');}
                             </td>
                         </tr>
                         <tr class="shipping-total">
-                            <th>Giao hàng</th>
+                            <th>Delivery</th>
                             <td data-title="Giao hàng">
 
-                                <p>Giao hàng miễn phí</p>
-                                <p>Tùy chọn giao hàng sẽ được cập nhật trong quá trình thanh toán.</p>
+                                <p>Free Delivery</p>
+                                <p>Shipping options will be updated during checkout.</p>
 
                             </td>
                         </tr>
+
+<!--                        <tr>-->
+<!--                            <th>Payment method</th>-->
+<!--                            <td>-->
+<!--                                <div class="tab container-fluid ">-->
+<!--                                    <button class="tablinks" >Acer</button>-->
+<!--                                    <button class="tablinks" >Asus</button>-->
+<!--                                    <button class="tablinks" >Msi</button>-->
+<!--                                </div>-->
+<!--                            </td>-->
+<!---->
+<!--                        </tr>-->
+
+                        <tr>
+                            <td colspan="6">
+                                <div class="infor"></div>
+                                <div class="coupon">
+                                    <form method="post">
+                                        <input type="hidden" value="cart" name="cart">
+                                        <button type="submit" class="btn btn-danger" name="delete-cart">Pay</button>
+                                    </form>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
                         <!--                        <tr class="cart-total">-->
                         <!--                            <th>Total</th>-->
                         <!--                            <td>-->
@@ -136,7 +155,20 @@ if(count($product->getData('cart')) == 0){ include ('HaveNoCart.php');}
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
 </div>
+
+<?php
+//if(isset($_COOKIE['user'])){
+//    include ('history.php');
+//}
+?>
 <?php
 include 'footer.php';
 include 'topbutton.php';
